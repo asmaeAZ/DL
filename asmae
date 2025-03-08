@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="menu-toggle">☰</button>
+        </nav>
+        <button id="dark-mode-toggle">Mode sombre</button>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur passionné par la création de sites web interactifs.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Projet 1">
+            <p>Un projet génial que j'ai réalisé.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Projet 2">
+            <p>Un autre projet impressionnant.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Envoyez-moi un message à <a href="mailto:email@example.com">email@example.com</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
